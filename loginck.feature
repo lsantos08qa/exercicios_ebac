@@ -11,11 +11,11 @@
             Cenário: Autenticação Válida
             Quando eu digitar o usuário "lucas@gmail.com"
             E a senha "teste0123"
-            Então deve direcionado para a tela de checkout
+            Então eu devo ser direcionado para a tela de checkout
 
             Esquema do Cenário: Autenticação inválida
             Quando eu inserir <usuario> e <senha>
-            Então deve exibir uma <mensagem> de erro
+            Então deve exibir a <mensagem> de erro
 
             Exemplos:
             | usuário                      | senha      | mensagem                     |
